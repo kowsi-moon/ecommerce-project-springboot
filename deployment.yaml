@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ecommerce-container
-        image: ://amazonaws.com
+        image: :154102274733.dkr.ecr.us-east-1.amazonaws.com/project_ecr_repo:latest
         ports:
         - containerPort: 80
         resources:
